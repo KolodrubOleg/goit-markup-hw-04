@@ -24,6 +24,7 @@ a {
     text-decoration: none;
 }
 
+
 .container {
 margin: 0 auto;
     padding: 0 15px;
@@ -33,7 +34,7 @@ margin: 0 auto;
 
 .header-main {
 border-bottom: 1px solid #e7e9fc;
-      
+        box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 
 }
 .header-main .container {  
@@ -79,7 +80,9 @@ display: flex;
     letter-spacing: 0.02em;
     color: #2e2f42;
 padding: 24px 0;
-
+ 
+position: relative;
+color: #404bbf;
 
 }
 
