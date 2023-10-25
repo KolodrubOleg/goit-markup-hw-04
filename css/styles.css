@@ -422,6 +422,11 @@ margin-bottom: 8px;
 }
 
 /* Footer */
+ .container-footer {
+     display: flex;
+     align-items: baseline;
+   
+ }
 
 .footer-block {
     background-color: #2e2f42;
