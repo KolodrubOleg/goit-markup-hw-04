@@ -88,7 +88,6 @@ display: flex;
     letter-spacing: 0.02em;
     color: #2e2f42;
 padding: 24px 0;
- 
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: #404bbf;
     position: relative;
@@ -131,19 +130,18 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .contact-link:focus {
     color: #2e2f42;
 }
-.page-link::after,
-.contact-link::after {
-    content: '';
+.page-link .contact-link::after {
+
+    content: "";
     position: absolute;
     left: 0;
     bottom: -1px;
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
-    
-          
+ width: 100%;
+ color: #404BBF;
 }
-
 
 /* Hero section */
 
@@ -450,7 +448,7 @@ margin-bottom: 8px;
 
  .footer-container {
     align-items: baseline;
-    display: flex;
+    
  }
 
  .footer-container-logo {
@@ -528,4 +526,8 @@ background-color: #2e2f42;
     width: 24;
     height: 24;
     fill: #f4f4fd;
+}
+.footer-container-second {
+    display: flex;
+
 }
