@@ -450,6 +450,7 @@ margin-bottom: 8px;
 
  .footer-block .container {
     align-items: baseline;
+    display: flex;
  }
 
  .footer-container-logo {
@@ -473,6 +474,7 @@ font-weight: 500;
 .footer-item {
     width: 40px;
     height: 40px;
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-item-link {
