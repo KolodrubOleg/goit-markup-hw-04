@@ -131,8 +131,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: #2e2f42;
 }
 
-.nav-list ::after,
-.special-line ::after{
+.page-link.special-line::after{
     content: "";
     position: absolute;
     left: 0;
@@ -430,7 +429,7 @@ margin-bottom: 8px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: #f4f4fd;
 }
-.paragraph-hiden:hover {
+.portfolio-list.paragraph-hiden:hover {
     transform: translateY(0%);
 }
 
@@ -439,7 +438,7 @@ margin-bottom: 8px;
     overflow: hidden;
 }
 
-.portfolio-list:hover {
+.portfolio-items:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -450,7 +449,9 @@ margin-bottom: 8px;
 
  .footer-container {
     align-items: baseline;
-    
+   margin: 0 auto ;
+   padding: 0 15px;
+  
  }
 
  .footer-container-logo {
