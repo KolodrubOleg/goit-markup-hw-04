@@ -52,8 +52,6 @@ display: flex;
 .main-navigation{
 display: flex;
 align-items: center;
-
-
 }
 
 .header-logo {
@@ -65,8 +63,6 @@ align-items: center;
     color: #4d5ae5;
     line-height: 1.17;
     margin-right: 76px;
-
- 
 }
 
 .logo-text {
@@ -75,7 +71,7 @@ align-items: center;
 }
 
 .nav-list {
-    gap: 40px;
+gap: 40px;
 list-style: none;
 display: flex;
 
@@ -89,19 +85,20 @@ display: flex;
     color: #2e2f42;
 padding: 24px 0;
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    color: #404bbf;
+    color:#2e2f42;
     position: relative;
+}
+
+
+.contact-link:hover,
+.contact-link:focus {
+    color: #2E2F42;
 }
 
 
 .page-link:hover,
 .page-link:focus {
-color: #2e2f42;
-}
-
-.contact-link:hover,
-.contact-link:focus {
-    color: #404bbf;
+color: #2E2F42;
 }
 
 .address-block {
@@ -123,12 +120,7 @@ padding: 24px 0
 font-style: normal;
 color: var(--SLATE, #434455);
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    color: #404bbf;
-}
-
-.contact-link:hover,
-.contact-link:focus {
-    color: #2e2f42;
+   
 }
 
 .page-link.special-line::after{
@@ -142,7 +134,9 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  width: 100%;
  color: #404BBF;
 }
-
+.special-line {
+   color:  #404BBF;
+}
 /* Hero section */
 
 
@@ -327,12 +321,13 @@ border-radius: 0px 0px 4px 4px;
 display: flex;
 justify-content: center;
 gap: 24px;
+padding-top: 8px;
 }
 
  .icon-team-item {
 width: 40px;
 height: 40px;
-padding-top: 8px;
+
 
  }
 
