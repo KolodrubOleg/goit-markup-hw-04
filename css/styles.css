@@ -149,6 +149,7 @@ background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
 margin: auto 0;
+max-width: 1440px;
 }
  
 .main-heading {
